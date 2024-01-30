@@ -28,7 +28,7 @@ switch ($Opcion){
          break;
 
     case 2:
-         $consulta="UPDATE usuarios SET Usuario='$Usuario', Contraseña= TO_BASE64('$Contraseña'), IP='$ip' WHERE id='$ID'";
+         $consulta="UPDATE usuarios SET Usuario='$Usuario', Contraseña= TO_BASE64( '$Contraseña'), IP='$ip' WHERE id='$ID'";
          $resultado = $conexion->prepare($consulta);
          $resultado->execute();
          if(!file_exists("../clientes/$Usuario")){

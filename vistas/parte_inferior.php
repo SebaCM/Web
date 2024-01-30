@@ -5,10 +5,11 @@
            <footer class="sticky-footer bg-white">
            <div class="container my-auto">
                <div class="copyright text-center my-auto">
-                   <span>Copyright &reg;2023. RACOM Microelectronics SA de CV.</span>
+                   <span>Copyright &reg; RACOM Microelectronics SA de CV.</span>
                </div>
            </div>
-       </footer>
+           </footer> 
+            
        <!-- End of Footer -->
 
    </div>
@@ -33,7 +34,7 @@
                    <span aria-hidden="true">×</span>
                </button>
            </div>
-           <div class="modal-body">Presiona "Logout" si quieres terminar la sesion.</div>
+           <div class="modal-body">Presione "Logout" si quieres terminar la sesion.</div>
            <div class="modal-footer">
                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
                <a class="btn btn-primary" href="../dashboard/login/logout.php">Logout</a>

@@ -52,13 +52,7 @@ if(isset($_SESSION["user_name"])){
 
           <div class="d-flex justify-content-between align-items-center">
             <!-- Checkbox -->
-            <div class="form-check mb-0">
-              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-              <label class="form-check-label" for="form2Example3">
-                 Recuerdame me
-              </label>
-            </div>
-            <a href="#!" class="text-body">¿Olvidaste la contraseña?</a>
+            <a href="#!" class="text-body" data-toggle="modal" data-target="#ContraseñaOlvidada">¿Olvidaste la contraseña?</a>
           </div>
 
           <div class="text-center text-lg-start mt-4 pt-2">
@@ -74,9 +68,27 @@ if(isset($_SESSION["user_name"])){
     class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
     <!-- Copyright -->
     <div class="text-white mb-3 mb-md-0">
-      Copyright &reg; 2023. RACOM Microelectronics SA de CV.
-    </div>
+      Copyright &reg; RACOM Microelectronics SA de CV.                         
+     </div>
     <!-- Copyright -->
+    <div class="modal fade" id="ContraseñaOlvidada" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+   aria-hidden="true">
+   <div class="modal-dialog" role="document">
+       <div class="modal-content">
+           <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Si no se acuerda de la contraseña:</h5>
+               <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">×</span>
+               </button>
+           </div>
+           <div class="modal-body">Contacte a RACOM</div>
+           <div class="modal-footer">
+               <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+            </div>
+       </div>
+   </div>
+</div>
+
 </section>
 <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="codigo.js"></script>
