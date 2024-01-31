@@ -11,7 +11,7 @@ $(document).on("DOMContentLoaded", function () {
       return false;
     } else {
       $.ajax({
-        url: "./verificacion.php",
+        url: "verificacion.php",
         type: "POST",
         datatype: "json",
         data: { usuario: usuario, password: password },
