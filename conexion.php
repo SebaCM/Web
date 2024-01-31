@@ -1,7 +1,7 @@
 <?php
 class Conexion{
     public static function Conectar(){
-        define('servidor','localhost');
+        define('servidor','162.240.38.95');
         define('nombre_bd','wwraco_mqtt_data');
         define('usuario','wwraco_mqtt_root');
         define('password','Iwf5Lp1_aYFV');

@@ -62,7 +62,7 @@
 <script src="js/demo/chart-pie-demo.js"></script>
 <script src="vendor/BootDatatables/datatables.min.js"></script>
 <script type="text/javascript" src="vendor/script.js"></script>
-<script src="./node_modules/core/dist/umd/popper.min.js"></script>
+<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 <script src="vendor/bootstrap copy/dist/js/bootstrap.min.js"></script>
 <script src="vendor/BootDatatables/datatables.min.js"></script>
 <script type="text/javascript" src="vendor/administrador.js"></script>

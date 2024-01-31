@@ -1,6 +1,6 @@
 {
   "title": "SB Admin 2",
-  "name": "@SebaCM/startbootstrap-sb-admin-2",
+  "name": "@sebacm/startbootstrap-sb-admin-2",
   "version": "4.1.4",
   "scripts": {
     "start": "gulp watch"
