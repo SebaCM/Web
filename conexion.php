@@ -5,7 +5,7 @@ class Conexion{
         define('nombre_bd','wwraco_mqtt_data');
         define('usuario','wwraco_mqtt_root');
         define('password','Iwf5Lp1_aYFV');
-        define('puerto','443');
+        define('puerto','3306');
         $opciones=array(
             PDO::ATTR_EMULATE_PREPARES=>FALSE,
             PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,
