@@ -11,7 +11,7 @@ class Conexion{
             PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,
             PDO::MYSQL_ATTR_INIT_COMMAND=>'SET NAMES utf8');
         try{
-            $conexion=new PDO("mysql:host=".servidor.";port=".puerto";dbname=".nombre_bd,usuario,password,
+            $conexion=new PDO("mysql:host=".servidor.";port=".puerto.";dbname=".nombre_bd,usuario,password,
             $opciones);
             return $conexion;
         }catch (Exception $e){
