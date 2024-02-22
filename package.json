@@ -26,7 +26,10 @@
   "contributors": [
     "David Miller (https://davidmiller.io/)"
   ],
-  "repository": "https://github.com/SebaCM/Web",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebaCM/Web.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -65,6 +68,5 @@
   "main": "gulpfile.js",
   "directories": {
     "doc": "docs"
-    
   }
 }
