@@ -7,6 +7,7 @@ $nombre=$_SESSION["user_name"];
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<link rel="shortcut icon" href="./Icon_pestaña.png" />
 
 <head>
 
@@ -26,8 +27,8 @@ $nombre=$_SESSION["user_name"];
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="../vendor/BootDatatables/datatables.min.css" rel="stylesheet">
-    <link href="../css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="vendor/BootDatatables/datatables.min.css" rel="stylesheet">
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
    
 </head>
 
@@ -43,7 +44,7 @@ $nombre=$_SESSION["user_name"];
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
               <div id="logo">    
               <br>  
-               <img src="../../descarga (3).png" alt="Logo de RACOM" width="95%" max-height="auto" class="fluid-image">
+               <img src="descarga (3).png" alt="Logo de RACOM" width="95%" max-height="auto" class="fluid-image">
                <br>
                <hr class="sidebar-divider my-0">  
             </div>
@@ -294,7 +295,7 @@ $nombre=$_SESSION["user_name"];
                                     Activity Log
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../dashboard/login/logout.php" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="login/logout.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
