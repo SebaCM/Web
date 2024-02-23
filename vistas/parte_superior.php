@@ -53,7 +53,7 @@ $nombre=$_SESSION["user_name"];
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
               <div id="logo">    
               <br>  
-               <img src="../../descarga (3).png" alt="Logo de RACOM" width="95%" max-height="auto" class="fluid-image">
+               <img src="../descarga (3).png" alt="Logo de RACOM" width="95%" max-height="auto" class="fluid-image">
                <br>
                <hr class="sidebar-divider my-0">  
             </div>
@@ -87,7 +87,7 @@ $nombre=$_SESSION["user_name"];
                 Clientes
             </div>
             <?php
-    $path="../dashboard/clientes/";
+    $path="../clientes/";
     $directorio=opendir($path);
     while($archivo=readdir($directorio)){
         $nombreArch=ucwords($archivo);
