@@ -1,7 +1,7 @@
 <?php
     session_start();
 if(!isset($_SESSION["user_name"]) || $_SESSION["user_name"]!="ADMIN_RACOM"){
-  header("Location: ../login/login.php");
+  header("Location: login/login.php");
 }
 
 $nombre=$_SESSION["user_name"];
