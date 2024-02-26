@@ -9,7 +9,7 @@ $nombre=$_SESSION["user_name"];
 
 <!DOCTYPE html>
 <html lang="en">
-<link rel="shortcut icon" href="./Icon_pestaña.png" />
+<link rel="shortcut icon" href="./Icon.png" />
 <head>
 
     <meta charset="utf-8">

@@ -10,7 +10,7 @@ if(isset($_SESSION["user_name"])){
 ?>
 <!DOCTYPE html>
 <html lang="es">
-<link rel="shortcut icon" href="../Icon_pestaña.png" />
+<link rel="shortcut icon" href="../Icon.png" />
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
