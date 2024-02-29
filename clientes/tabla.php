@@ -1,9 +1,9 @@
 <?php require_once "parte_superior.php" ?>
 <?php
-include_once '../../conexion.php';
+include_once '../conexion.php';
 $objeto=new Conexion();
 $conexion=$objeto->Conectar();
-$consulta="SELECt * FROM datospaginaweb WHERE Temas LIKE '%$nombre/%'";
+$consulta="SELECt * FROM datospaginaweb WHERE Tema LIKE '%$nombre/%'";
 $resultado=$conexion->prepare($consulta);
 $resultado->execute();
 $datos=$resultado->fetchAll(PDO::FETCH_ASSOC);
@@ -31,7 +31,7 @@ $datos=$resultado->fetchAll(PDO::FETCH_ASSOC);
                     ?>
                     <tr>
                        <td><?php echo $datos["id"] ?></td>
-                       <td><?php echo $datos["Temas"] ?></td>
+                       <td><?php echo $datos["Tema"] ?></td>
                        <td><?php echo $datos["Datos"] ?></td>
                        <td><?php echo $datos["Cliente"] ?></td>
                        <td><?php echo $datos["Fecha"] ?></td>
