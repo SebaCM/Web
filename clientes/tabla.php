@@ -46,10 +46,5 @@ $datos=$resultado->fetchAll(PDO::FETCH_ASSOC);
           </div>
         </div>
     </div>
-    <script>
-        $(document).ready(function(){
-            $('#TablaMqtt').DataTable();
-        });
-    </script>
 <!-- FIN DEL CONTENIDO -->
 <?php require_once "parte_inferior.php" ?>

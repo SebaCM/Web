@@ -65,7 +65,7 @@
 <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 <script src="vendor/bootstrap copy/dist/js/bootstrap.min.js"></script>
 <script src="vendor/BootDatatables/datatables.min.js"></script>
-<script type="text/javascript" src="vendor/administrador.js"></script>
+<script type="text/javascript" src="vendor/admin.js"></script>
 
 
 </body>
